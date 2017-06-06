@@ -2,7 +2,7 @@ import requests
 import configparser
 
 conf = configparser.ConfigParser()
-conf.read('../config.ini')
+conf.read('config.ini')
 
 key = conf.get('Creds', 'key')
 body = {}
