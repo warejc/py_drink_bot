@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
 import requests
 import configparser
+import os
 
 conf = configparser.ConfigParser()
-conf.read('config.ini')
+conf.read(os.path.join(os.path.abspath(os.path.dirname(__file__)), '../', 'config.ini'))
 
 key = conf.get('Creds', 'key')
 body = {}

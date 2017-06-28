@@ -1,0 +1,4 @@
+# Run "which python3" to get path of pyhton3
+# Make sure to pip3 install all dependencies on server (make sure to do in global env)
+
+0 8-20 * * 0-5 /Library/Frameworks/Python.framework/Versions/3.5/bin/python3 ~/workspace/py_drink_bot/src/drink.py
